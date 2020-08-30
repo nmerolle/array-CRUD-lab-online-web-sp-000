@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   arr=["1", "2", "3", "4"]
-  arr.unshift("0") 
+  arr << "0" 
 end
 
 def add_element_to_start_of_array(array, element)
